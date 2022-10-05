@@ -27,4 +27,3 @@ class EntryPoint:
     line1 = Line(point1, point2, "Line.1")
     print("Line Length :", line1.Length)
 
-    
