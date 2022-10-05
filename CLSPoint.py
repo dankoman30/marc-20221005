@@ -4,7 +4,6 @@ from CLSWireframe import Wireframe
 
 class Point(Wireframe):
     def __init__(self, x=0, y=0, z=0, name="Point"):
-        super().__init__(name)
         self.X = x
         self.Y = y
         self.Z = z
